@@ -6,6 +6,7 @@ class Node:
         self.right = right
         self.next = next
 
+
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         self.dfs(root)
