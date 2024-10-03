@@ -19,7 +19,6 @@ class Solution:
             else:
                 minpath[row][index] = min(minpath[row+1][index], minpath[row+1][index+1]) + value
 
-            print(row, index, minpath[row][index])
             if row != 0 and len(triangle[row-1]) != index:
                 q.append([row-1, index])
 
