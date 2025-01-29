@@ -11,5 +11,4 @@ def bubbleSort(l: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     l = [91,38,71,3,4,1,2,7,9,10,0,64,99,57,60,20,8,0]
-    bubbleSort(l)
-    print(l)
+    print(bubbleSort(l))
