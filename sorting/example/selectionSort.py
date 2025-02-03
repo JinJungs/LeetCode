@@ -2,7 +2,7 @@
 from typing import List
 
 
-def selectionSort(l: List[int]) -> List[int]:
+def selection_sort(l: List[int]) -> List[int]:
     n = len(l)
     for i in range(n):
         m = i
@@ -15,4 +15,4 @@ def selectionSort(l: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     l = [91,38,71,3,4,1,2,7,9,10,0,64,99,57,60,20,8,0]
-    print(selectionSort(l))
+    print(selection_sort(l))
